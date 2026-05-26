@@ -1,0 +1,2 @@
+myReplicate 0 _ = []
+myReplicate n x = x : myReplicate (n-1) x
