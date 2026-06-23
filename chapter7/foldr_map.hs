@@ -1,0 +1,1 @@
+myMap f = foldr ((:) . f) []
